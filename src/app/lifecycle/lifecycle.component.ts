@@ -37,7 +37,7 @@ export class LifecycleComponent
   }
 
   ngOnInit() {
-    console.log('ngOnInit');
+    console.log('Method call at first on page load ngOnInit');
   }
 
   ngOnChanges(changes: SimpleChanges) {
